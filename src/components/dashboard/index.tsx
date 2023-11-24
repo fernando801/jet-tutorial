@@ -19,7 +19,6 @@ const activities = [
   ];
 
 function ChartItemTemplate( item: ojChart.ItemTemplateContext ) {
-    console.log(item.data)
     return (
         <oj-chart-item
             value={item.data.quantity}
@@ -31,11 +30,10 @@ function ChartItemTemplate( item: ojChart.ItemTemplateContext ) {
 }
 
 function ListItemTemplate( item: ojListView.ItemTemplateContext ) {
-    console.log(item.data)
     return (
         <oj-list-item-layout>
-            <span >{item.data.name}</span>
-            <span slot="secondary">Quantity: {item.data.quantity}</span>
+            <span class="oj-typography-body-md oj-text-color-primary">{item.data.name}</span>
+            <span class="oj-typography-body-sm oj-text-color-secondary" slot="secondary">Quantity: {item.data.quantity}</span>
         </oj-list-item-layout>
     );
 }
@@ -56,25 +54,31 @@ export function Dashboard() {
   }
 
   return (
-    <div>
-    <oj-c-select-single
-        labelHint='Select an Activity'
-        data={dataProvider}
-        itemText={"label"}
-        onvalueChanged={valueChanged}
-        value={selectedActivity}
-    ></oj-c-select-single>
-    <oj-chart
-        id="pieChart"
-        type="pie"
-        data={productsDataProvider}
-        animationOnDisplay="auto"
-        animationOnDataChange="auto"
-    >
-        <template slot="itemTemplate" render={ChartItemTemplate} />
-    </oj-chart>
+    <div className="oj-flex">
+        <div
+            className="oj-flex-item oj-sm-12 oj-md-12 oj-lg-6"
+        >
+            <oj-c-select-single
+                labelHint='Select an Activity'
+                data={dataProvider}
+                itemText={"label"}
+                onvalueChanged={valueChanged}
+                value={selectedActivity}
+            ></oj-c-select-single>
+            <oj-chart
+                id="pieChart"
+                type="pie"
+                data={productsDataProvider}
+                animationOnDisplay="auto"
+                animationOnDataChange="auto"
+            >
+                <template slot="itemTemplate" render={ChartItemTemplate} />
+            </oj-chart>
+        </div>
     <oj-list-view
+        class="oj-flex-item"
         data={productsDataProvider}
+        gridlines={ { item: "visible" }}
     >
         <template slot="itemTemplate" render={ListItemTemplate} />
     </oj-list-view>
