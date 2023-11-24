@@ -6,11 +6,12 @@
  * @ignore
  */
 import { h } from "preact";
+import { Dashboard } from '../dashboard/index';
 
 export function Content() {
   return (
     <div class="oj-web-applayout-max-width oj-web-applayout-content">
-      <p>Hello JET!</p>
+      <Dashboard />
     </div>
   );
 };
