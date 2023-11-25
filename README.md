@@ -45,8 +45,4 @@ We are thrilled to present our comprehensive tutorial series on Oracle JET (Orac
 
 - **Resource Hub:** The GitHub repository serves as a valuable resource hub, providing easy access to the codebase and additional materials.
 
-## Get Involved:
-
-We encourage you to dive into the tutorial series, explore the source code, and join the community of Oracle JET developers. Your feedback and contributions are highly appreciated.
-
 Happy coding!
