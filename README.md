@@ -2,7 +2,7 @@
 
 Dear Developers and Enthusiasts,
 
-We are thrilled to present our comprehensive tutorial series on Oracle JET (Oracle JavaScript Extension Toolkit), designed to empower you with the skills and knowledge needed to harness the full potential of this powerful web development framework.
+I am thrilled to present our comprehensive tutorial series on Oracle JET (Oracle JavaScript Extension Toolkit), designed to empower you with the skills and knowledge needed to harness the full potential of this powerful web development framework.
 
 ## Tutorial Overview:
 
@@ -37,16 +37,16 @@ We are thrilled to present our comprehensive tutorial series on Oracle JET (Orac
 
 - **JET Cookbook:** Explore a collection of recipes and solutions at the [JET Cookbook](https://www.oracle.com/webfolder/technetwork/jet/jetCookbook.html) for practical guidance on Oracle JET development.
 
-- **Preact Documentation:** If you're interested in exploring Preact, the library used in our tutorial, refer to the [Preact Documentation](https://preactjs.com/).
+- **Preact Documentation:** If you're interested in exploring Preact, the ui library used in this tutorial, refer to the [Preact Documentation](https://preactjs.com/).
 
 - **Netlify:** For seamless deployment and hosting, consider using [Netlify](https://www.netlify.com/), a powerful platform for modern web projects.
 
 
 ## Accessing the Tutorial:
 
-- **YouTube Playlist:** The entire tutorial series is available on our [YouTube Playlist](https://youtube.com/playlist?list=PLTWHFhnVqDGIvFtvSPUplC5J3KaTs0uPL&si=jexok3RI8-k7Tt_A). Each video covers a specific aspect of Oracle JET, guiding you through the learning process.
+- **YouTube Playlist:** The entire tutorial series is available on this [YouTube Playlist](https://youtube.com/playlist?list=PLTWHFhnVqDGIvFtvSPUplC5J3KaTs0uPL&si=jexok3RI8-k7Tt_A). Each video covers a specific aspect of Oracle JET, guiding you through the learning process.
 
-- **GitHub Repository:** The source code for the application built during the tutorial is hosted on our [GitHub Repository](https://github.com/fernando801/jet-tutorial). Feel free to explore the code, experiment with it, and use it as a reference for your own projects.
+- **GitHub Repository:** The source code for the application built during the tutorial is hosted on this [GitHub Repository](https://github.com/fernando801/jet-tutorial). Feel free to explore the code, experiment with it, and use it as a reference for your own projects.
 
 ## Why Oracle JET?
 
