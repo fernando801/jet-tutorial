@@ -30,6 +30,17 @@ We are thrilled to present our comprehensive tutorial series on Oracle JET (Orac
 
 6. **[Oracle JET Tutorial - Part 6: Deploy your Oracle JET App](https://youtu.be/9cPvrQV2E9Q?si=IuhxeHO5dClLjwBd)**  
    - Packaging and deploying your Oracle JET application for production.
+  
+## Additional Resources:
+
+- **Oracle JET Documentation:** For comprehensive information about Oracle JET, refer to the [Oracle JET Documentation](https://www.oracle.com/webfolder/technetwork/jet/index.html).
+
+- **JET Cookbook:** Explore a collection of recipes and solutions at the [JET Cookbook](https://www.oracle.com/webfolder/technetwork/jet/jetCookbook.html) for practical guidance on Oracle JET development.
+
+- **Preact Documentation:** If you're interested in exploring Preact, the library used in our tutorial, refer to the [Preact Documentation](https://preactjs.com/).
+
+- **Netlify:** For seamless deployment and hosting, consider using [Netlify](https://www.netlify.com/), a powerful platform for modern web projects.
+
 
 ## Accessing the Tutorial:
 
